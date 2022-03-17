@@ -17,16 +17,20 @@ function (person, petName){
 }
 ```
 
-| Input | Output |
-| ----- | ------ |
-|       |        | 
-|       |        | 
-|       |        | 
+|        Input        |          Output         |
+| ------------------- | ----------------------- |
+|   Blair, Tugger     |   Tugger Labradoodle    | 
+|   Jaclyn, Annie     |      Anny Calico        | 
+|   Bridget, Rosie    |      Rosie Hound        | 
 
 <table>
   <tr>
     <th>What does this program do?</th>
-    <td></td>
+    <td>
+    This program checks the array for the value passed for person and locates the variable dog which is 
+    also an array. That array is then checked for the name value and if that value is equal to the initial 
+    arguemnt passed for petName, it return the dog array.
+    </td>
   </tr>
 </table>
 
