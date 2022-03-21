@@ -17,11 +17,11 @@ function (person, petName){
 }
 ```
 
-|        Input        |          Output         |
-| ------------------- | ----------------------- |
-|   Blair, Tugger     |   Tugger Labradoodle    | 
-|   Jaclyn, Annie     |      Anny Calico        | 
-|   Bridget, Rosie    |      Rosie Hound        | 
+|        Input        |          Output          |
+| ------------------- | ------------------------ |
+|   Blair, Tugger     |   [petName:"Tugger", petBreed: "Labradoodle]     | 
+|   Jaclyn, Annie     |   [petName:"Annie", petBreed: "Calico"]           | 
+|   Bridget, Rosie    |   [petName:"Rosie", petBreed: "Hound]           | 
 
 <table>
   <tr>
