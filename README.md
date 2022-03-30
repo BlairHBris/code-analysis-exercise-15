@@ -19,9 +19,9 @@ function (person, petName){
 
 |        Input        |          Output          |
 | ------------------- | ------------------------ |
-|   Blair = {name: "Blair", dogs: ["Tugger", "Bandit"]}, "Tugger"  |   dog.Tugger = [petName:"Tugger", petBreed: "Labradoodle]     | 
-|   Jaclyn = {name: "Jaclyn", dogs: ["Annie", "Rosie"]}, "Annie"    |   dog.Annie = [petName:"Annie", petBreed: "Calico"]           | 
-|   Bridget = {name: "Bridget", dogs: ["Annie", "Rosie"]}, "Rosie"     |   dog.Rosie = [petName:"Rosie", petBreed: "Hound]           | 
+|   {name: "Blair", dogs: [{name:"Tugger"}, {name:"Bandit"}]}}, "Tugger"  |   {petName:"Tugger", petBreed: "Labradoodle}     |
+|   {name: "Jaclyn", dogs: [{name:"Annie"}, {name:"Rosie"}]}, "Annie"    |   {petName:"Annie", petBreed: "Calico"}          | 
+|   {name: "Bridget", dogs: [{name:"Annie"}, {name:"Rosie"}]}, "Rosie"     |   {petName:"Rosie", petBreed: "Hound"}           | 
 
 <table>
   <tr>
